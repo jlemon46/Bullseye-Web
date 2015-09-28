@@ -1,0 +1,194 @@
+* {
+    font-family: "Roboto Condensed";
+}
+.primaryhead {
+    background-image: url(../img/heroimg.jpg);
+}
+
+.grow
+{
+        -webkit-transform: scale(.9);
+        -ms-transform: scale(.9);
+        transform: scale(.9);
+            transition:all 0.3s ease;
+
+}
+
+.grow:hover
+{
+        -webkit-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+        transform: scale(1);
+        transition:all 0.3s ease;
+
+}
+
+.redtag {
+    background: #d02b2f;
+    width:100%;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.redtag h1 {
+    color:#fff;
+    padding-bottom: 5px;
+}
+
+h1 {
+text-transform: uppercase;
+color:#d02b2f;  
+font-weight: 400;
+margin-bottom:20px;
+
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+
+.card {
+    display: inline-block;
+    vertical-align: top;
+    width: 99%;
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    background: #FFF;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    color: #272727;
+    border-radius: 2px;
+  }
+  .card .title {
+    line-height: 24px;
+    font-size: 24x;
+    font-weight: 400;
+      text-transform: uppercase;
+  }
+  .card .content {
+    padding: 20px;
+    font-weight: 300;
+    border-radius: 0 0 2px 2px;
+  }
+  .card p {
+    margin: 0;
+  }
+  .card .action {
+    border-bottom: 1px solid rgba(160, 160, 160, 0.2);
+    padding: 20px;
+      background-color: #d02b2f;
+  }
+  .card a {
+    color: #fff;
+    margin-right: 20px;
+    -webkit-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+.card a:hover {
+        color: #242424;
+}
+
+  .card .image {
+    position: relative;
+  }
+  .card .image img {
+    border-radius: 2px 2px 0 0;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+  .card .image .title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    color: #FFF;
+  }
+
+ .animatepoint5sec {
+      -webkit-animation-delay: .5s;
+      -ms-animation-delay: .5s;
+  }
+
+  .animate1sec {
+      -webkit-animation-delay: 1s;
+      -ms-animation-delay: 1s;
+  }
+
+ .animate1point5sec {
+      -webkit-animation-delay: 1.5s;
+      -ms-animation-delay: 1.5s;
+  }
+
+ .animate2sec {
+      -webkit-animation-delay: 2s;
+      -ms-animation-delay: 2s;
+  }
+
+ .animate2point5sec {
+      -webkit-animation-delay: 2.5s;
+      -ms-animation-delay: 2.5s;
+  }
+.about {
+    background-color: #242424;
+}
+
+.about h1 {
+    color: #fff;
+}
+
+footer p {
+    text-align: right;
+    padding-right:30px;
+}
+
+body {
+      -vendor-animation-duration: 4s;
+}
+
+.contenthead {
+    margin-top:40px;
+    margin-bottom:40px;
+}
+    
+
+.contactcard h3 {
+    text-transform: uppercase;
+    color:#d02b2f;
+    text-align: center;
+}
+
+.content ul li {
+ list-style-type:none;  
+}
+
+.contactcard .contact {
+    text-align: center;
+    padding-left:0xp !important;
+}
+
+.contact a {
+        color:#333;
+    text-transform:none;
+}
+
+.contact a:hover {
+    color:#d02b2f;
+
+    font-weight:400;
+}
+
+footer a {
+ color:#333;   
+}
+
+footer a:hover {
+    color:#d02b2f;
+    text-decoration: none;
+}
